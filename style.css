@@ -7,9 +7,31 @@ body {
   text-align: center;
 }
 
-.social {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+div.social{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.social a{
+    padding: 10px 12px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+div.social a:hover{
+    opacity: 0.8;
 }
 
+.github{
+    background: #FFFFFF;
+}
+
+.twitter{
+    background: #00acee;
+}
+.linkedin{
+    background: #0e76a8;
+}
