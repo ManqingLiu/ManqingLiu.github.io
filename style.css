@@ -4,6 +4,14 @@ html {
   font-family: Garamond;
 }
 
+.center {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+}
+
 h2 {
   text-align: left;
 }
@@ -29,6 +37,7 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  text-align: left;
 
 }
 
