@@ -8,10 +8,7 @@ body {
 }
 
 div.social{
-    display: flex;
-    column-gap: 5px;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 div.social a{
     padding: 10px 12px;
