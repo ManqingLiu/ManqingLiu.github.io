@@ -7,6 +7,27 @@ body {
   text-align: center;
 }
 
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+  font-size: 14px;
+
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header a {
+  color: #4A4A4A;
+}
+
+
 div.social{
     text-align: center;
 }
@@ -20,6 +41,10 @@ div.social a{
 }
 div.social a:hover{
     opacity: 0.8;
+}
+
+.github {
+    background: #f5f5f5;
 }
 
 .twitter{
