@@ -41,7 +41,14 @@ p {
 }
 
 .headshot {
-  text-align: center;
+  padding-top: 100px;
+  text-align: justify;
+  width:200;
+}
+
+.headshot img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Header */
