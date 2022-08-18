@@ -55,6 +55,11 @@ p {
 
 .contact {
     text-align: center;
+    font-size: 13px;
+}
+
+i {
+padding: 5px;
 }
 
 /* Header */
