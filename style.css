@@ -29,6 +29,11 @@ h2 {
   text-align: left;
 }
 
+h5 {
+    text-align: justify;
+    font-size: 14px;
+}
+
 a {
   text-decoration: none;
 }
