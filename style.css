@@ -12,7 +12,7 @@ html {
 
 .aboutme {
   display: inline-block;
-  padding:20px;
+  padding: 200px;
   max-width: 500px;
   text-align: left;
 }
@@ -96,8 +96,7 @@ p {
 
 
 div.social{
-    float: center;
-    /*padding-top: 80px;*/
+    padding-top: 80px;
     position: absolute;
     bottom: 20px;
 }
