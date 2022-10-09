@@ -10,18 +10,12 @@ html {
 }
 */
 
-.homepage{
-  display: gird;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-
 
 h1 {
   padding-top: 80px;
   padding: 10px;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -47,8 +41,8 @@ p {
 
 .headshot {
   padding-top: 100px;
-  text-align: left;
-  padding-left: 100px;
+  float: left;
+  padding-left: 50px;
   width:200;
 }
 
