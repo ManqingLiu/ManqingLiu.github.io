@@ -11,7 +11,8 @@ html {
 */
 
 .aboutme {
-  padding-left: 420px;
+  padding-left: 410px;
+  padding-right: 30px;
   padding-top: 30px;
 }
 
@@ -47,7 +48,7 @@ p {
 
 
 .headshot {
-  padding-top: 30px;
+  padding-top: 40px;
   float: left;
   padding-left: 50px;
   width:200;
