@@ -13,9 +13,9 @@ html {
 .aboutme {
   display: inline-block;
   position: fixed;
-  padding-left: 100px;
+  padding-left: 50px;
   padding-right: 50px;
-  width: 60%;
+  width: 55%;
   text-align: left;
 }
 
