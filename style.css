@@ -10,14 +10,10 @@ html {
 }
 */
 
-.homepage {
-  display: grid;
-  grid-template-columns: lfr lfr;
+.homepage{
+  display: gird;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-}
-
-#aboutme {
-    display: inline-block;
 }
 
 
