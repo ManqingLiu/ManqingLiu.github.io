@@ -11,9 +11,9 @@ html {
 */
 
 .aboutme {
-  padding-left: 410px;
-  padding-right: 30px;
-  padding-top: 30px;
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
 }
 
 
