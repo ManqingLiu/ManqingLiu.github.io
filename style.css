@@ -10,6 +10,12 @@ html {
 }
 */
 
+.caption {
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .aboutme {
   display: inline-block;
   position: fixed;
