@@ -1,6 +1,6 @@
 /* Universal Styles */
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'EB Garamond', serif;
 }
 
@@ -30,13 +30,13 @@ html {
 h1 {
   padding-top: 80px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
 h2 {
-  padding: 20px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -46,7 +46,7 @@ a {
 }
 
 i {
-  font-size: 5px;
+  font-size: 3px;
 }
 
 /*
