@@ -45,9 +45,6 @@ a {
   text-decoration: none;
 }
 
-i {
-  font-size: 3px;
-}
 
 /*
 p {
@@ -73,12 +70,13 @@ p {
     display: block;
     margin: 0 auto;
 }
+*/
 
 .contact {
     text-align: left;
     font-size: 13px;
 }
-*/
+
 
 
 /* Header */
