@@ -175,3 +175,29 @@ header h1 {
   bottom: 0;
   width: 100%;
 }
+
+/* Academia-focused styling */
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f4f4f4;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
