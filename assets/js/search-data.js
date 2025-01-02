@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-the-bitter-lesson-i-learned-from-my-first-project",
+      
+        title: "The bitter lesson I learned from my first project",
+      
+      description: "A post about the lessons learned from working on my first dissertation project.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/post-citation/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -121,17 +132,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/typograms/";
-        
-      },
-    },{id: "post-a-post-that-can-be-cited",
-      
-        title: "a post that can be cited",
-      
-      description: "this is what a post that can be cited looks like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/post-citation/";
         
       },
     },{id: "post-a-post-with-pseudo-code",
@@ -431,16 +431,8 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+    },{id: "news-our-dag-aware-transformer-for-causal-effect-estimation-paper-is-accepted-as-a-poster-at-crl-neurips2024-sparkles-smile",
+          title: 'Our DAG-aware Transformer for Causal Effect Estimation paper is accepted as a poster...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
