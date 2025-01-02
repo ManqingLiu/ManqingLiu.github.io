@@ -3,10 +3,9 @@ layout: post
 title: The bitter lesson I learned from my first dissertation project
 date: 2025-01-01
 description: A post about the lessons learned from working on my first dissertation project.
-tags: reflections, dissertation, machine learning research
+tags: reflections, dissertation, machinelearningresearch
 categories: posts
 citation: true
-have_related_posts: false
 ---
 
 I recently finished my first dissertation project, and I wanted to share the lessons I learned from it. 
