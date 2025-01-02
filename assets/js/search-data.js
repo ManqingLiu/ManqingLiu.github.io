@@ -502,25 +502,11 @@ ninja.data = [{
           window.open("https://github.com/ManqingLiu", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Manqing Liu", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/manqing-liu-b3a569b1", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -528,6 +514,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=1EijlwwAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/ManqingLiu5", "_blank");
         },
       },{
       id: 'light-theme',
