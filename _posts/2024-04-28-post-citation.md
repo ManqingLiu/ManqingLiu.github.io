@@ -5,7 +5,7 @@ date: 2025-01-01
 description: A post about the lessons learned from working on my first dissertation project.
 tags: reflections, dissertation, machinelearningresearch
 categories: posts
-citation: true
+citation: false
 ---
 
 I recently finished my first dissertation project, and I wanted to share the lessons I learned from it. 
