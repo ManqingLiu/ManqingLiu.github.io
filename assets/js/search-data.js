@@ -79,9 +79,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-the-bitter-lesson-i-learnt-from-my-first-phd-project",
+            },{id: "post-the-bitter-lessons-i-learnt-from-my-first-phd-project",
       
-        title: "The bitter lesson I learnt from my first PhD project",
+        title: "The bitter lessons I learnt from my first PhD project",
       
       description: "A post about the lessons learnt from working on my first PhD project.",
       section: "Posts",
