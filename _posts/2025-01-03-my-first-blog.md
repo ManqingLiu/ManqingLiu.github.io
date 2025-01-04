@@ -72,7 +72,7 @@ On the contrary, it's a sign of a researcher who's committed to producing the be
 
 This lesson was profoundly influenced by [John Schulman](http://joschu.net/)'s insightful [blog post](http://joschu.net/blog/opinionated-guide-ml-research.html) on conducting ML research. I wish I'd stumbled upon it earlier in my PhD journey!
 
-From the outset, I diligently used Weights & Biases to log my experiments. However, I overlooked the crucial practice of maintaining a daily log. This oversight made tracking my progress a Herculean task. My workflow devolved into a haphazard cycle of tweaking parameters and re-running experiments without clear direction.
+From the outset, I diligently used [Weights & Biases](https://wandb.ai/site/) to log my experiments. However, I overlooked the crucial practice of maintaining a daily log. This oversight made tracking my progress a Herculean task. My workflow devolved into a haphazard cycle of tweaking parameters and re-running experiments without clear direction.
 
 One of the most insidious traps in my PhD journey was the illusion of time well spent. Sure, I was constantly running experiments, but without a daily log detailing my plans, code changes, results, and reflections, I was essentially stumbling around in the dark.
 
