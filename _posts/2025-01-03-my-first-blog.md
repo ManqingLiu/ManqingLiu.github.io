@@ -1,11 +1,10 @@
 ---
 layout: post
-title: The bitter lesson I learnt from my first PhD project
+title: The bitter lessons I learnt from my first PhD project
 date: 2025-01-03 
 description: A post about the lessons learnt from working on my first PhD project.
 tags: reflections
 categories: blog-posts
-giscus_comments: true
 related_posts: false
 toc:
   beginning: true
@@ -13,13 +12,13 @@ toc:
 
 I recently completed my first PhD project and I must say it was a bittersweet experience. 
 I learnt a lot from the project, but I also made a lot of mistakes. 
-In this post, I will share the bitter lesson I learnt from my first PhD project.
+In this post, I will share the bitter lessons I learnt from my first PhD project.
 
 A disclaimer: I am not an expert in this field, but I am sharing my experience in the hope 
 that it will help others avoid the mistakes I made, especially those who, like me, don't come from a 
 traditional computer science background.
 
-## The bitter lesson 1: Start with an existing repository if you can find one and build on it
+#### The bitter lesson 1: Start with an existing repository if you can find one and build on it
 When I began my first PhD project, I decided to build everything from scratch, 
 thinking it would give me a deeper understanding and more control over the project. At that time, I am also very
 new to programming in `python` and have a deep-rooted fear of using or changing other people's code.
@@ -49,12 +48,26 @@ However, for most PhD projects, especially in the early stages,
 leveraging existing work can significantly accelerate your progress and 
 allow you to focus on your unique contributions to the field.
 
-## The bitter lesson 2: Check public datasets first before simulating your own data
+#### The bitter lesson 2: Check public datasets first before simulating your own data
 
-## The bitter lesson 3: Don't be afraid to ask for help
+When starting my project, I eagerly created a custom dataset, spending months on complex simulations for synthetic data. This decision led to unforeseen challenges:
 
-## The bitter lesson 4: Don't be afraid to change the codes provided by your advisor
+1. **Time consumption**: Creating and validating synthetic data, especially for causal inference with intricate confounding interactions, was unexpectedly time-consuming.
 
-## The bitter lesson 5: Keep a daily log of your experiments
+2. **Reinventing the wheel**: I later discovered several public datasets with various covariates and ground truth causal effects that could have served my needs with minimal modifications.
 
-## The bitter lesson 6: Instead of topdown approach, start with the simplest model first
+In hindsight, investigating existing public datasets first would have been beneficial:
+
+- **Extensive resources**: Many fields have well-established, high-quality public datasets.
+- **Time-saving**: Allows faster initiation of actual research.
+- **Comparability**: Enables direct comparison with existing work.
+- **Community support**: Often includes documentation, preprocessing scripts, and benchmarks.
+
+Creating your own dataset isn't always wrong, especially for initial small-scale hypothesis testing. However, consider public datasets when scaling up your research.
+#### The bitter lesson 3: Don't be afraid to ask for help
+
+#### The bitter lesson 4: Don't be afraid to change the codes provided by your advisor
+
+#### The bitter lesson 5: Keep a daily log of your experiments
+
+#### The bitter lesson 6: Instead of topdown approach, start with the simplest model first
