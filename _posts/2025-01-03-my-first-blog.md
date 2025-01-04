@@ -18,10 +18,10 @@ A disclaimer: I am not an expert in this field, but I am sharing my experience i
 that it will help others avoid the mistakes I made, especially those who, like me, don't come from a 
 traditional computer science background.
 
-#### The bitter lesson 1: Start with an existing repository if you can find one and build on it
+### The bitter lesson 1: Start with an existing repository if you can find one and build on it
 When I began my first PhD project, I decided to build everything from scratch, 
-thinking it would give me a deeper understanding and more control over the project. At that time, I am also very
-new to programming in `python` and have a deep-rooted fear of using or changing other people's code.
+thinking it would give me a deeper understanding and more control over the project. At that time, I was also very
+new to programming in `python` and had a deep-rooted fear of using or changing other people's code.
 
 This turned out to be a significant mistake that cost me valuable time and energy. In retrospect, 
 I should have searched for existing repositories or codebases related to my research topic. 
@@ -48,26 +48,36 @@ However, for most PhD projects, especially in the early stages,
 leveraging existing work can significantly accelerate your progress and 
 allow you to focus on your unique contributions to the field.
 
-#### The bitter lesson 2: Check public datasets first before simulating your own data
+### The bitter lesson 2: Check public datasets first before simulating your own data
+When I started my project, I was eager to create a custom dataset that perfectly matched my research needs. 
+I spent months developing complex simulations to generate synthetic data. 
+However, this decision came with several unforeseen challenges and drawbacks:
 
-When starting my project, I eagerly created a custom dataset, spending months on complex simulations for synthetic data. This decision led to unforeseen challenges:
+1. **Time consumption**: Creating and validating a synthetic dataset took far longer than anticipated, especially
+when I want to create dataset that is as close to real-world as possible. In the context of causal inference, one
+might need to simulate the data generating process that considers all possible interactions among confounders, treatment 
+and outcome. This is very hard to achieve and can take a lot of time.
 
-1. **Time consumption**: Creating and validating synthetic data, especially for causal inference with intricate confounding interactions, was unexpectedly time-consuming.
+2. **Reinventing the wheel**: I later discovered that several public datasets with various number of covariates, and 
+ground truth causal effect existed that could have served my needs with minimal modifications.
 
-2. **Reinventing the wheel**: I later discovered several public datasets with various covariates and ground truth causal effects that could have served my needs with minimal modifications.
+In hindsight, I should have first thoroughly investigated existing public datasets. Here's what I learned:
 
-In hindsight, investigating existing public datasets first would have been beneficial:
+1. **Extensive resources available**: Many fields have well-established, high-quality public datasets that are regularly used and validated by the research community.
 
-- **Extensive resources**: Many fields have well-established, high-quality public datasets.
-- **Time-saving**: Allows faster initiation of actual research.
-- **Comparability**: Enables direct comparison with existing work.
-- **Community support**: Often includes documentation, preprocessing scripts, and benchmarks.
+2. **Time-saving**: Using public datasets allows you to start your actual research faster, without spending months on data generation and validation.
 
-Creating your own dataset isn't always wrong, especially for initial small-scale hypothesis testing. However, consider public datasets when scaling up your research.
-#### The bitter lesson 3: Don't be afraid to ask for help
+3. **Comparability**: Public datasets enable direct comparison of your methods with existing work, strengthening your research's credibility.
 
-#### The bitter lesson 4: Don't be afraid to change the codes provided by your advisor
+4. **Community support**: Popular public datasets often come with documentation, preprocessing scripts, and benchmarks from other researchers.
 
-#### The bitter lesson 5: Keep a daily log of your experiments
 
-#### The bitter lesson 6: Instead of topdown approach, start with the simplest model first
+That's not to say that creating your own dataset is always wrong, especially for initial small-scale hypothesis testing. 
+However, consider public datasets when scaling up your research.
+### The bitter lesson 3: Don't be afraid to ask for help
+
+### The bitter lesson 4: Don't be afraid to change the codes provided by your advisor
+
+### The bitter lesson 5: Keep a daily log of your experiments
+
+### The bitter lesson 6: Instead of topdown approach, start with the simplest model first
