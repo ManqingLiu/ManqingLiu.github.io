@@ -1,45 +1,32 @@
 ---
 layout: post
 title: The bitter lesson I learnt from my first PhD project
-date: 2023-03-20 11:59:00-0400
+date: 2025-01-03 
 description: A post about the lessons learnt from working on my first PhD project.
-tags: formatting toc
-categories: sample-posts
+tags: reflections
+categories: blog-posts
 giscus_comments: true
 related_posts: false
 toc:
   beginning: true
 ---
 
-This post shows how to add a table of contents in the beginning of the post.
+I recently completed my first PhD project and I must say it was a bittersweet experience. 
+I learnt a lot from the project, but I also made a lot of mistakes. 
+In this post, I will share the bitter lesson I learnt from my first PhD project.
 
-## Adding a Table of Contents
+A disclaimer: I am not an expert in this field, but I am sharing my experience in the hope 
+that it will help others avoid the mistakes I made, especially those who, like me, don't come from a 
+traditional computer science background.
 
-To add a table of contents to a post, simply add
+## The bitter lesson 1: Start with an existing repository if you can find one and build on it
 
-```yml
-toc:
-  beginning: true
-```
+## The bitter lesson 2: Check public datasets first before simulating your own data
 
-to the front matter of the post. The table of contents will be automatically generated from the headings in the post.
+## The bitter lesson 3: Don't be afraid to ask for help
 
-### Example of Sub-Heading 1
+## The bitter lesson 4: Don't be afraid to change the codes provided by your advisor
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## The bitter lesson 5: Keep a daily log of your experiments
 
-### Example of another Sub-Heading 1
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-## Table of Contents Options
-
-If you want to learn more about how to customize the table of contents, you can check the [jekyll-toc](https://github.com/toshimaru/jekyll-toc) repository.
-
-### Example of Sub-Heading 2
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-### Example of another Sub-Heading 2
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## The bitter lesson 6: Instead of topdown approach, start with the simplest model first
