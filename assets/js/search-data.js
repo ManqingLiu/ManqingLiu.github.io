@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "news-our-dag-aware-transformer-for-causal-effect-estimation-paper-is-accepted-as-a-poster-at-crl-neurips2024-sparkles-smile",
+            },{id: "post-the-bitter-lesson-i-learnt-from-my-first-phd-project",
+      
+        title: "The bitter lesson I learnt from my first PhD project",
+      
+      description: "A post about the lessons learnt from working on my first PhD project.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/my-first-blog/";
+        
+      },
+    },{id: "news-our-dag-aware-transformer-for-causal-effect-estimation-paper-is-accepted-as-a-poster-at-crl-neurips2024-sparkles-smile",
           title: 'Our DAG-aware Transformer for Causal Effect Estimation paper is accepted as a poster...',
           description: "",
           section: "News",},{id: "projects-project-1",
