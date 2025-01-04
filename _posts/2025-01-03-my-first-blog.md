@@ -5,6 +5,7 @@ date: 2025-01-03
 description: A post about the lessons learnt from working on my first PhD project.
 tags: reflections
 categories: blog-posts
+giscus_comments: true
 related_posts: false
 toc:
   beginning: true
