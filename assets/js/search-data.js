@@ -87,7 +87,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2023/my-first-blog/";
+          window.location.href = "/blog/2025/my-first-blog/";
         
       },
     },{id: "news-our-dag-aware-transformer-for-causal-effect-estimation-paper-is-accepted-as-a-poster-at-crl-neurips2024-sparkles-smile",
