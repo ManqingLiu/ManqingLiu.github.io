@@ -20,6 +20,34 @@ that it will help others avoid the mistakes I made, especially those who, like m
 traditional computer science background.
 
 ## The bitter lesson 1: Start with an existing repository if you can find one and build on it
+When I began my first PhD project, I decided to build everything from scratch, 
+thinking it would give me a deeper understanding and more control over the project. At that time, I am also very
+new to programming in `python` and have a deep-rooted fear of using or changing other people's code.
+
+This turned out to be a significant mistake that cost me valuable time and energy. In retrospect, 
+I should have searched for existing repositories or codebases related to my research topic. 
+
+There are several reasons why this approach would have been more beneficial:
+
+1. **Time efficiency**: Starting from an existing codebase would have saved me months of work in setting 
+up basic infrastructures and implementing standard algorithms.
+
+2. **Learning from others**: By examining and building upon existing code, 
+I could have learned best practices and coding standards specific to my field.
+
+3. **Focusing on novel contributions**: Instead of reinventing the wheel, 
+I could have devoted more time to developing and implementing my unique ideas and contributions.
+
+4. **Reduced errors**: Established codebases often have fewer bugs and have been tested more thoroughly than something built from scratch.
+
+5. **Better documentation**: Many existing repositories come with comprehensive documentation, 
+which can be invaluable for understanding complex algorithms or data structures.
+
+Of course, this doesn't mean you should never build from scratch. 
+There are times when it's necessary or beneficial to do so. 
+However, for most PhD projects, especially in the early stages, 
+leveraging existing work can significantly accelerate your progress and 
+allow you to focus on your unique contributions to the field.
 
 ## The bitter lesson 2: Check public datasets first before simulating your own data
 
