@@ -13,7 +13,9 @@ toc:
 
 I recently completed my first PhD [project](https://arxiv.org/abs/2410.10044), and I must say it was a bittersweet experience. I learned a lot, but I also made plenty of mistakes. In this post, I'll share the bitter lessons I picked up along the way.
 
-A quick disclaimer: I'm no expert in this field, but I'm sharing my experience in the hope that it'll help others avoid the pitfalls I encountered, especially those who, like me, don't come from a traditional computer science background.
+A quick disclaimer: I'm no expert in this field, so definitely read it with a grain of salt.
+I'm sharing my experience in the hope that it'll help others avoid the pitfalls I encountered, 
+especially those who, like me, don't come from a traditional computer science background.
 
 ### Lesson 1: Start with an existing repository if you can find one and build on it
 
@@ -53,9 +55,9 @@ Just as I was tempted to let AI do all the thinking, I was also hesitant to seek
 I thought I should know the answers, or I assumed my code was correct simply because it ran without throwing errors.
 This mindset, I've learned, can be incredibly dangerous in research.
 
-For the second part of my first project, which was a continuation of a paper by my
-colleague, [David R. Bellamy](https://davidbellamy.github.io/), I finally mustered the courage to reach
-out for guidance. This decision proved invaluable. When David reviewed my code,
+For the second part of my first project, which was a continuation of a [paper](https://arxiv.org/abs/2205.09824) by former lab mates. 
+One of the leading authors is [David R. Bellamy](https://davidbellamy.github.io/) who is a brilliant researcher and a great mentor. I 
+finally mustered the courage to reach out for guidance. This decision proved invaluable. When David reviewed my code,
 we uncovered a silent error - one that didn't trigger any warnings but significantly impacted the results.
 Something as seemingly minor as the difference between `tensor.view()` and `tensor.permute()` led to substantial
 discrepancies in the output.
@@ -80,18 +82,17 @@ So, let me implore you: keep a daily log of your experiments! Include your plan 
 
 This practice isn't just about record-keeping; it's about cultivating a mindful approach to your research. It will help you track progress, understand patterns, make informed decisions, avoid repeating unsuccessful approaches, and reflect on your growth as a researcher.
 
-### Lesson 6: Start with the simplest model first, not a top-down approach
+### Lesson 6: Sometimes a bottom up approach is better than a top-down approach
 
 My first project aimed to leverage transformer models for causal effect estimation. Excited by the potential, I dove headfirst into using PyTorch's ready-made `Transformer` model. Our idea seemed straightforward, but reality hit us like a ton of bricks.
 
-Our grand transformer model refused to converge, the loss stubbornly refused to decrease, and its performance lagged behind "simple" models like random forests or MLPs. I spent months tweaking the model and adjusting parameters, but the results remained disappointing.
+Our grand transformer model refused to converge, the loss stubbornly refused to decrease, and its performance lagged behind "simple" models like random forests or Multilayer Perceptron (MLP). I spent months tweaking the model and adjusting parameters, but the results remained disappointing.
 
-The breakthrough came when I stepped back and worked with a basic MLP model. This simpler approach revealed that our encoding process for the transformer was potentially causing the model to lose crucial information about the causal DAG.
+The breakthrough came when I decided to take a step back and adopt a bottom-up approach. I started by implementing a simple MLP model, gradually incorporating transformer components like self-attention layers. This incremental approach allowed me to understand the transformer's inner workings, identify bottlenecks, and make targeted improvements.
 
-This experience taught me to start simple, understand my data, incrementally increase complexity, question my assumptions, and be cautious about transformations that might discard important information.
+The breakthrough came when I concatenated the raw inputs with the transformer's output, allowing the model to learn from both the raw features and the transformer's representations. This simple modification significantly improved the model's performance and convergence speed.
 
-Remember, in research, sometimes taking a step back allows you to leap forward. Don't be afraid to simplify – it might just be the key to unlocking your research puzzle!
-
+This experience taught me a valuable lesson: sometimes, a bottom-up approach is more effective than a top-down approach. By starting with simple, interpretable models and gradually incorporating complex components, you gain a deeper understanding of your model's behavior and can make more informed decisions.
 ### Lesson 7: Idea is cheap, the devil is in the details
 
 Having an "original" idea is relatively easy. The real challenge lies in implementation and execution. You'll never know if your intuition is correct until you've rigorously tested it, and often the result isn't what you expected. This is what makes research both exciting and frustrating.
