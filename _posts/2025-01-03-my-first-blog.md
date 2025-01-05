@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The bitter lessons I learnt from my first PhD project
-date: 2025-01-03 
+date: 2025-01-03
 description: A post about the lessons learnt from working on my first PhD project.
 tags: reflections
 categories: blog-posts
@@ -49,24 +49,24 @@ Remember, in AI research, understanding the 'why' behind a solution is often mor
 
 ### Lesson 4: Don't be afraid to ask for help, even if you think you should know the answer
 
-Just as I was tempted to let AI do all the thinking, I was also hesitant to seek human help. 
-I thought I should know the answers, or I assumed my code was correct simply because it ran without throwing errors. 
+Just as I was tempted to let AI do all the thinking, I was also hesitant to seek human help.
+I thought I should know the answers, or I assumed my code was correct simply because it ran without throwing errors.
 This mindset, I've learned, can be incredibly dangerous in research.
 
 For the second part of my first project, which was a continuation of a paper by my
-colleague, [David R. Bellamy](https://davidbellamy.github.io/), I finally mustered the courage to reach 
-out for guidance. This decision proved invaluable. When David reviewed my code, 
-we uncovered a silent error - one that didn't trigger any warnings but significantly impacted the results. 
-Something as seemingly minor as the difference between `tensor.view()` and `tensor.permute()` led to substantial 
+colleague, [David R. Bellamy](https://davidbellamy.github.io/), I finally mustered the courage to reach
+out for guidance. This decision proved invaluable. When David reviewed my code,
+we uncovered a silent error - one that didn't trigger any warnings but significantly impacted the results.
+Something as seemingly minor as the difference between `tensor.view()` and `tensor.permute()` led to substantial
 discrepancies in the output.
 
-The process of code review turned into much more than just error-hunting. 
-It became an impromptu masterclass in coding standards, best practices, debugging techniques, 
-and how to write clean, readable code. David's willingness to help and share knowledge 
+The process of code review turned into much more than just error-hunting.
+It became an impromptu masterclass in coding standards, best practices, debugging techniques,
+and how to write clean, readable code. David's willingness to help and share knowledge
 reminded me of a fundamental truth in academia: we're all here to learn and grow together.
 
-This experience taught me a crucial lesson: asking for help isn't a sign of weakness or incompetence. 
-On the contrary, it's a sign of a researcher who's committed to producing the best possible work. 
+This experience taught me a crucial lesson: asking for help isn't a sign of weakness or incompetence.
+On the contrary, it's a sign of a researcher who's committed to producing the best possible work.
 
 ### Lesson 5: Keep a daily log of your experiments
 

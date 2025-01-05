@@ -8,7 +8,7 @@ categories: posts
 citation: false
 ---
 
-I recently finished my first dissertation project, and I wanted to share the lessons I learned from it. 
+I recently finished my first dissertation project, and I wanted to share the lessons I learned from it.
 Note that these lessons are specific to my experience, and may not apply to everyone, but I hope they can be helpful to others,
-especially those who don't come from a traditional computer science background (like me) but are interested 
+especially those who don't come from a traditional computer science background (like me) but are interested
 in machine learning research.
