@@ -32,72 +32,61 @@
       "area": "Casual Machine Learning",
       "studyType": "PhD",
       "startDate": "2021-08-30",
-      "endDate": "Present"
-    }
-  ],
-  "courses": [
-    {
-      "name": "Machine Learning (Graduate level)",
-      "issuer": "MIT",
-      "url": "https://gradml.mit.edu/",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantitative Methods for NLP (Graduate level)",
-      "issuer": "MIT",
-      "url": "https://mit-6861.github.io/",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Geometric Methods for Machine Learning (Graduate level)",
-        "issuer": "Harvard University",
-        "url": "http://melanie-weber.com/teaching/geoml/",
-        "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Stochastic Methods for Data Analysis, Inference and Optimization (Graduate level)",
-        "issuer": "Harvard University",
-        "url": "https://qrd.college.harvard.edu/directory/apmth-207/",
-        "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Algorithms for Data Science (Graduate level)",
-        "issuer": "Harvard University",
-        "url": "https://www.coursicle.com/harvard/courses/COMPSCI/224/",
-        "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Linear Algebra and Learning from Data",
-      "issuer": "MIT",
-      "url": "https://math.mit.edu/classes/18.065/2019SP/",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Probability (Graduate level)",
-      "issuer": "Harvard University",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Statistical Inference I, II (Graduate level)",
-      "issuer": "Harvard University",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "System Development for Computational Science",
-      "url": "https://harvard-iacs.github.io/2019-CS207/",
-      "issuer": "Harvard University",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "High Performance Computing for Science and Engineering (Graduate level)",
-      "url": "https://harvard-iacs.github.io/2022-CS205/",
-      "issuer": "Harvard University",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Causal Inference (Graduate level)",
-      "issuer": "Harvard University",
-      "icon": "fa-solid fa-clipboard-check"
+      "endDate": "Present",
+      "courses": [
+        {
+          "name": "Machine Learning (Graduate level)",
+          "issuer": "MIT",
+          "url": "https://gradml.mit.edu/"
+        },
+        {
+          "name": "Quantitative Methods for NLP (Graduate level)",
+          "issuer": "MIT",
+          "url": "https://mit-6861.github.io/"
+        },
+        {
+          "name": "Geometric Methods for Machine Learning (Graduate level)",
+          "issuer": "Harvard University",
+          "url": "http://melanie-weber.com/teaching/geoml/"
+        },
+        {
+          "name": "Stochastic Methods for Data Analysis, Inference and Optimization (Graduate level)",
+          "issuer": "Harvard University",
+          "url": "https://qrd.college.harvard.edu/directory/apmth-207/"
+        },
+        {
+          "name": "Algorithms for Data Science (Graduate level)",
+          "issuer": "Harvard University",
+          "url": "https://www.coursicle.com/harvard/courses/COMPSCI/224/"
+        },
+        {
+          "name": "Linear Algebra and Learning from Data",
+          "issuer": "MIT",
+          "url": "https://math.mit.edu/classes/18.065/2019SP/"
+        },
+        {
+          "name": "Probability (Graduate level)",
+          "issuer": "Harvard University"
+        },
+        {
+          "name": "Statistical Inference I, II (Graduate level)",
+          "issuer": "Harvard University"
+        },
+        {
+          "name": "System Development for Computational Science",
+          "url": "https://harvard-iacs.github.io/2019-CS207/",
+          "issuer": "Harvard University"
+        },
+        {
+          "name": "High Performance Computing for Science and Engineering (Graduate level)",
+          "url": "https://harvard-iacs.github.io/2022-CS205/",
+          "issuer": "Harvard University"
+        },
+        {
+          "name": "Causal Inference (Graduate level)",
+          "issuer": "Harvard University"
+        }
+      ]
     }
   ],
   "publications": [
