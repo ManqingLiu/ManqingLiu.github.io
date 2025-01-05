@@ -53,16 +53,16 @@ Just as I was tempted to let AI do all the thinking, I was also hesitant to seek
 I thought I should know the answers, or I assumed my code was correct simply because it ran without throwing errors. 
 This mindset, I've learned, can be incredibly dangerous in research.
 
-For the second part of my first project, which was a continuation of a paper by a 
-former colleague ([David R. Bellamy](https://davidbellamy.github.io/)), I finally mustered the courage to reach 
-out for guidance. This decision proved invaluable. When my colleague reviewed my code, 
+For the second part of my first project, which was a continuation of a paper by my
+colleague, [David R. Bellamy](https://davidbellamy.github.io/), I finally mustered the courage to reach 
+out for guidance. This decision proved invaluable. When David reviewed my code, 
 we uncovered a silent error - one that didn't trigger any warnings but significantly impacted the results. 
 Something as seemingly minor as the difference between `tensor.view()` and `tensor.permute()` led to substantial 
 discrepancies in the output.
 
 The process of code review turned into much more than just error-hunting. 
 It became an impromptu masterclass in coding standards, best practices, debugging techniques, 
-and how to write clean, readable code. My colleague's willingness to help and share knowledge 
+and how to write clean, readable code. David's willingness to help and share knowledge 
 reminded me of a fundamental truth in academia: we're all here to learn and grow together.
 
 This experience taught me a crucial lesson: asking for help isn't a sign of weakness or incompetence. 
