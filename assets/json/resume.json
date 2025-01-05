@@ -20,14 +20,14 @@
       "position": "PhD researcher",
       "startDate": "2023-06-01",
       "endDate": "Present",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "summary": "Working on causal machine learning. How to incorporate DL models in causal effect estimation; and how causality can be used to improve the reasoning and safety of LLMs.",
+      "highlights": ["Causal Inference", "Deep Learning", "LLM", "Reasoning", "Safety"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "Haarvard University, Cambridge, USA",
+      "location": "Cambridge, USA",
       "url": "https://www.uzh.ch/",
       "area": "Software Development",
       "studyType": "PhD",
