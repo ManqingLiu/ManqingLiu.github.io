@@ -20,13 +20,13 @@
       "position": "PhD researcher",
       "startDate": "2023-06-01",
       "endDate": "Present",
-      "summary": "Working on causal machine learning. How to incorporate DL models in causal effect estimation; and how causality can be used to improve the reasoning and safety of LLMs.",
+      "summary": "Causal Machine Learning",
       "highlights": ["Causal Inference", "Deep Learning", "LLM", "Reasoning", "Safety"]
     }
   ],
   "education": [
     {
-      "institution": "Haarvard University, Cambridge, USA",
+      "institution": "Harvard University, Cambridge, USA",
       "location": "Cambridge, USA",
       "url": "https://www.harvard.edu/",
       "area": "Casual Machine Learning",
@@ -35,56 +35,68 @@
       "endDate": "Present"
     }
   ],
-  "awards": [
+  "courses": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Machine Learning (Graduate level)",
+      "issuer": "MIT",
+      "url": "https://gradml.mit.edu/",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Quantitative Methods for NLP (Graduate level)",
+      "issuer": "MIT",
+      "url": "https://mit-6861.github.io/",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Geometric Methods for Machine Learning (Graduate level)",
+        "issuer": "Harvard University",
+        "url": "http://melanie-weber.com/teaching/geoml/",
+        "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Stochastic Methods for Data Analysis, Inference and Optimization (Graduate level)",
+        "issuer": "Harvard University",
+        "url": "https://qrd.college.harvard.edu/directory/apmth-207/",
+        "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Algorithms for Data Science (Graduate level)",
+        "issuer": "Harvard University",
+        "url": "https://www.coursicle.com/harvard/courses/COMPSCI/224/",
+        "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Linear Algebra and Learning from Data",
+      "issuer": "MIT",
+      "url": "https://math.mit.edu/classes/18.065/2019SP/",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Probability (Graduate level)",
+      "issuer": "Harvard University",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Statistical Inference I, II (Graduate level)",
+      "issuer": "Harvard University",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "System Development for Computational Science",
+      "url": "https://harvard-iacs.github.io/2019-CS207/",
+      "issuer": "Harvard University",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "High Performance Computing for Science and Engineering (Graduate level)",
+      "url": "https://harvard-iacs.github.io/2022-CS205/",
+      "issuer": "Harvard University",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Causal Inference (Graduate level)",
+      "issuer": "Harvard University",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
