@@ -28,13 +28,11 @@
     {
       "institution": "Haarvard University, Cambridge, USA",
       "location": "Cambridge, USA",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "url": "https://www.harvard.edu/",
+      "area": "Casual Machine Learning",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2021-08-30",
+      "endDate": "Present"
     }
   ],
   "awards": [
