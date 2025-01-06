@@ -11,58 +11,95 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Candidate in Causal Machine Learning
-      institution: Harvard University, Boston, MA, US
-      year: 2021 - present
+    - title: "PhD Candidate in Causal Machine Learning"
+      institution: "Harvard University, Boston, MA, US"
+      year: "2021 - present"
       description:
-        - Major: Epidemiology and Biostatistics
-        - contents:
-          - Advisor: Dr. Andrew Beam & Dr. James Robins
-        - Secondary Field: Computer Science
+        - title: "Major"
+          contents:
+            - "Epidemiology and Biostatistics"
+        - title: "Advisor"
+          contents:
+            - "Dr. Andrew Beam"
+            - "Dr. James Robins"
+        - title: "Secondary Field"
+          contents:
+            - "Computer Science"
 
 - title: Courses
-  type: list
+  type: time_table
   contents:
-    - name: "Machine Learning (Graduate level)"
-      issuer: "MIT"
-      url: "https://gradml.mit.edu/"
-    - name: "Quantitative Methods for NLP (Graduate level)"
-      issuer: "MIT"
-      url: "https://mit-6861.github.io/"
-    - name: "Geometric Methods for Machine Learning (Graduate level)"
-      issuer: "Harvard University"
-      url: "http://melanie-weber.com/teaching/geoml/"
-    - name: "Stochastic Methods for Data Analysis, Inference and Optimization (Graduate level)"
-      issuer: "Harvard University"
-      url: "https://qrd.college.harvard.edu/directory/apmth-207/"
-    - name: "Algorithms for Data Science (Graduate level)"
-      issuer: "Harvard University"
-      url: "https://www.coursicle.com/harvard/courses/COMPSCI/224/"
-    - name: "Linear Algebra and Learning from Data"
-      issuer: "MIT"
-      url: "https://math.mit.edu/classes/18.065/2019SP/"
-    - name: "Probability (Graduate level)"
-      issuer: "Harvard University"
-    - name: "Statistical Inference I, II (Graduate level)"
-      issuer: "Harvard University"
-    - name: "System Development for Computational Science"
-      url: "https://harvard-iacs.github.io/2019-CS207/"
-      issuer: "Harvard University"
-    - name: "High Performance Computing for Science and Engineering (Graduate level)"
-      url: "https://harvard-iacs.github.io/2022-CS205/"
-      issuer: "Harvard University"
-    - name: "Causal Inference (Graduate level)"
-      issuer: "Harvard University"
+    - title: "Machine Learning (Graduate level)"
+      institution: "MIT"
+      year: ""
+      linkitems:
+        - link: "https://gradml.mit.edu/"
+          linkname: "Course Link"
+    - title: "Quantitative Methods for NLP (Graduate level)"
+      institution: "MIT"
+      year: ""
+      linkitems:
+        - link: "https://mit-6861.github.io/"
+          linkname: "Course Link"
+    - title: "Geometric Methods for Machine Learning (Graduate level)"
+      institution: "Harvard University"
+      year: ""
+      linkitems:
+        - link: "http://melanie-weber.com/teaching/geoml/"
+          linkname: "Course Link"
+    - title: "Stochastic Methods for Data Analysis, Inference and Optimization (Graduate level)"
+      institution: "Harvard University"
+      year: ""
+      linkitems:
+        - link: "https://qrd.college.harvard.edu/directory/apmth-207/"
+          linkname: "Course Link"
+    - title: "Algorithms for Data Science (Graduate level)"
+      institution: "Harvard University"
+      year: ""
+      linkitems:
+        - link: "https://www.coursicle.com/harvard/courses/COMPSCI/224/"
+          linkname: "Course Link"
+    - title: "Linear Algebra and Learning from Data"
+      institution: "MIT"
+      year: ""
+      linkitems:
+        - link: "https://math.mit.edu/classes/18.065/2019SP/"
+          linkname: "Course Link"
+    - title: "Probability (Graduate level)"
+      institution: "Harvard University"
+      year: ""
+    - title: "Statistical Inference I, II (Graduate level)"
+      institution: "Harvard University"
+      year: ""
+    - title: "System Development for Computational Science"
+      institution: "Harvard University"
+      year: ""
+      linkitems:
+        - link: "https://harvard-iacs.github.io/2019-CS207/"
+          linkname: "Course Link"
+    - title: "High Performance Computing for Science and Engineering (Graduate level)"
+      institution: "Harvard University"
+      year: ""
+      linkitems:
+        - link: "https://harvard-iacs.github.io/2022-CS205/"
+          linkname: "Course Link"
+    - title: "Causal Inference (Graduate level)"
+      institution: "Harvard University"
+      year: ""
 
 - title: Experience
   type: time_table
   contents:
-    - title: PhD researcher
-      institution: Harvard University, Causal Lab, Boston, MA, US
-      year: 2023 - present
+    - title: "PhD Researcher"
+      institution: "Harvard University, Causal Lab, Boston, MA, US"
+      year: "2023 - present"
       description:
-        - Aim 1: Develop a DAG aware transformer to estimate causal effects.
-        - Aim 2: Incorporate doubly robust estimators into value function in MCTS to improve reasoning capability of LLMs.
+        - title: "Aim 1"
+          contents:
+            - "Develop a DAG-aware transformer to estimate causal effects."
+        - title: "Aim 2"
+          contents:
+            - "Incorporate doubly robust estimators into the value function in MCTS to improve the reasoning capability of LLMs."
     - title: Biostatistician
       institution: Penn Medicine, Philadelphia, PA, US
       year: 2017 - 2021
