@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Manqing Liu
+      value: Manqing Liu (Pronounced as Man-ching Leo)
     #- name: Date of Birth
     #  value: 27th, July, 1992
-    - name: Languages
-      value: Chinese, English
+    - name: Email
+      value: manqingliu@g.harvard.edu
 
 - title: Education
   type: time_table
@@ -18,13 +18,14 @@
         - title: "Major"
           contents:
             - "Epidemiology and Biostatistics"
-        - title: "Advisor"
-          contents:
-            - "Dr. Andrew Beam"
-            - "Dr. James Robins"
         - title: "Secondary Field"
           contents:
             - "Computer Science"
+        - title: "Advisors"
+          contents:
+            - "Dr. Andrew Beam"
+            - "Dr. James Robins"
+
 
 - title: Courses
   type: time_table
@@ -87,6 +88,15 @@
       institution: "Harvard University"
       year: ""
 
+- title: Fellowship
+  type: time_table
+  contents:
+        - title: "Technical AI safety Fellowship"
+          institution: "AI Safety Student Team"
+          year: "2024 June - August"
+          description:
+              - "8-week reading group on AI safety, covering topics such as neural network interpretability, robustness, and alignment."
+
 - title: Experience
   type: time_table
   contents:
@@ -106,7 +116,6 @@
       description:
         - "Collaborated with clinical researchers, biostatisticians, and data scientists to harness electronic health record (EHR) data for machine learning applications."
         - "Developed and deployed predictive models to forecast patient outcomes, enabling data-driven decision-making in healthcare settings."
-        - "Pioneered the use of advanced feature engineering and model interpretability techniques to improve the transparency and trustworthiness of healthcare AI solutions."
         - "Led cross-functional efforts to integrate machine learning workflows into clinical practice, optimizing efficiency and enhancing patient care outcomes."
 - title: Open Source Projects
   type: time_table
