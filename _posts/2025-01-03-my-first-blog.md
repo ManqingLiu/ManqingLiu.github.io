@@ -3,7 +3,7 @@ layout: post
 title: The bitter lessons I learnt from my first PhD project
 date: 2025-01-03
 description: A post about the lessons learnt from working on my first PhD project.
-tags: reflections
+tags: reflections comments
 categories: blog-posts
 giscus_comments: true
 related_posts: false
