@@ -45,9 +45,9 @@ Pursuing a technical PhD in GenAI is like opening Pandora's box. Initially, my w
 
 While generative AI can be a powerful debugging tool, it's a double-edged sword, especially for beginners. It's dangerously easy to fall into the trap of mental laziness, allowing the AI to do all the thinking. This approach can lead to either getting the right solution or merely suppressing the error message while the underlying problem persists.
 
-I confess I still fall into this trap occasionally. However, I'm striving to be more mindful of AI-provided solutions. My new approach is to always attempt solving the bug myself first, understanding the root cause, before considering the AI's suggestion.
+I confess I still fall into this trap occasio   nally. However, I'm striving to be more mindful of AI-provided solutions. My new approach is to always attempt solving the bug myself first, understanding the root cause, before considering the AI's suggestion.
 
-Remember, in AI research, understanding the 'why' behind a solution is often more crucial than the solution itself. Let's use AI as a tool to augment our problem-solving skills, not replace them.
+In AI research, understanding the 'why' behind a solution is often more crucial than the solution itself. Let's use AI as a tool to augment our problem-solving skills, not replace them.
 
 ### Lesson 4: Don't be afraid to ask for help, even if you think you should know the answer
 
@@ -67,8 +67,6 @@ It became an impromptu masterclass in coding standards, best practices, debuggin
 and how to write clean, readable code. David's willingness to help and share knowledge
 reminded me of a fundamental truth in academia: we're all here to learn and grow together.
 
-This experience taught me a crucial lesson: asking for help isn't a sign of weakness or incompetence.
-On the contrary, it's a sign of a researcher who's committed to producing the best possible work.
 
 ### Lesson 5: Keep a daily log of your experiments
 
@@ -90,8 +88,6 @@ Our grand transformer model refused to converge, the loss stubbornly refused to 
 
 The breakthrough came when I decided to take a step back and adopt a bottom-up approach. I started by implementing a simple MLP model, gradually incorporating transformer components like self-attention layers. This incremental approach allowed me to understand the transformer's inner workings, identify bottlenecks, and make targeted improvements.
 
-The breakthrough came when I concatenated the raw inputs with the transformer's output, allowing the model to learn from both the raw features and the transformer's representations. This simple modification significantly improved the model's performance and convergence speed.
-
 This experience taught me a valuable lesson: sometimes, a bottom-up approach is more effective than a top-down approach. By starting with simple, interpretable models and gradually incorporating complex components, you gain a deeper understanding of your model's behavior and can make more informed decisions.
 
 ### Lesson 7: Idea is cheap, the devil is in the details
@@ -104,6 +100,6 @@ I've learned that persistence is key, but so is flexibility. Sometimes, pushing 
 
 Documentation and collaboration become your best friends in this process. Keep detailed notes and don't be afraid to discuss your challenges with peers or mentors.
 
-Remember, many groundbreaking discoveries came not from the initial idea, but from the persistent work that followed. The difference between a good idea and a great contribution often lies in your ability to tackle the nitty-gritty details with creativity and perseverance.
+Many groundbreaking discoveries came not from the initial idea, but from the persistent work that followed. The difference between a good idea and a great contribution often lies in your ability to tackle the nitty-gritty details with creativity and perseverance.
 
-So, the next time you're stuck in the quagmire of implementation details, remember: this is where the real magic of research happens. Embrace the challenge, stay curious, and keep pushing forward. Your breakthrough might be just around the corner, hidden in the details you're currently wrestling with.
+So, the next time you're stuck in the quagmire of implementation details, this might be where the real magic of research happens. Embrace the challenge, stay curious, and keep pushing forward. Your breakthrough might be just around the corner, hidden in the details you're currently wrestling with.
