@@ -32,104 +32,38 @@
       "area": "Casual Machine Learning",
       "studyType": "PhD",
       "startDate": "2021-08-30",
-      "endDate": "Present",
-      "courses": [
-        {
-          "name": "Machine Learning (Graduate level)",
-          "issuer": "MIT",
-          "url": "https://gradml.mit.edu/"
-        },
-        {
-          "name": "Quantitative Methods for NLP (Graduate level)",
-          "issuer": "MIT",
-          "url": "https://mit-6861.github.io/"
-        },
-        {
-          "name": "Geometric Methods for Machine Learning (Graduate level)",
-          "issuer": "Harvard University",
-          "url": "http://melanie-weber.com/teaching/geoml/"
-        },
-        {
-          "name": "Stochastic Methods for Data Analysis, Inference and Optimization (Graduate level)",
-          "issuer": "Harvard University",
-          "url": "https://qrd.college.harvard.edu/directory/apmth-207/"
-        },
-        {
-          "name": "Algorithms for Data Science (Graduate level)",
-          "issuer": "Harvard University",
-          "url": "https://www.coursicle.com/harvard/courses/COMPSCI/224/"
-        },
-        {
-          "name": "Linear Algebra and Learning from Data",
-          "issuer": "MIT",
-          "url": "https://math.mit.edu/classes/18.065/2019SP/"
-        },
-        {
-          "name": "Probability (Graduate level)",
-          "issuer": "Harvard University"
-        },
-        {
-          "name": "Statistical Inference I, II (Graduate level)",
-          "issuer": "Harvard University"
-        },
-        {
-          "name": "System Development for Computational Science",
-          "url": "https://harvard-iacs.github.io/2019-CS207/",
-          "issuer": "Harvard University"
-        },
-        {
-          "name": "High Performance Computing for Science and Engineering (Graduate level)",
-          "url": "https://harvard-iacs.github.io/2022-CS205/",
-          "issuer": "Harvard University"
-        },
-        {
-          "name": "Causal Inference (Graduate level)",
-          "issuer": "Harvard University"
-        }
-      ]
+      "endDate": "Present"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "DAG aware Transformer for Causal Effect Estimation",
+      "publisher": "NeurIPS 2024 Causal Representation Learning Workshop",
+      "releaseDate": "2024",
+      "url": "https://openreview.net/forum?id=sG6tdKozS7",
+      "summary": "Causal inference is a critical task across fields such as healthcare, economics, and the social sciences. While recent advances in machine learning, especially those based on the deep-learning architectures, have shown potential in estimating causal effects, existing approaches often fall short in handling complex causal structures and lack adaptability across various causal scenarios. In this paper, we present a novel transformer-based method for causal inference that overcomes these challenges. The core innovation of our model lies in its integration of causal Directed Acyclic Graphs (DAGs) directly into the attention mechanism, enabling it to accurately model the underlying causal structure. This allows for flexible estimation of both average treatment effects (ATE) and conditional average treatment effects (CATE). Extensive experiments on both synthetic and real-world datasets demonstrate that our approach surpasses existing methods in estimating causal effects across a wide range of scenarios. The flexibility and robustness of our model make it a valuable tool for researchers and practitioners tackling complex causal inference problems."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Python",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+    },
+    {
+      "name": "R",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
+    },
+    {
+      "name": "html",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese (Mandarin)",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -137,42 +71,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
