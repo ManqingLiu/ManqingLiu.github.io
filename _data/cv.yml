@@ -96,16 +96,18 @@
       description:
         - title: "Aim 1"
           contents:
-            - "Develop a DAG-aware transformer to estimate causal effects."
+            - "Engineered a noval DAG-aware transformer model to precisely estimate causal effects, addressing foundational challenges in unifying causal effect estimation under various scenarios."
         - title: "Aim 2"
           contents:
-            - "Incorporate doubly robust estimators into the value function in MCTS to improve the reasoning capability of LLMs."
+            - "Integrated doubly robust estimators into Monte Carlo Tree Search (MCTS), enabling large language models to perform complex, multi-step reasoning and planning with higher accuracy in real-world scenarios."
     - title: Biostatistician
       institution: Penn Medicine, Philadelphia, PA, US
       year: 2017 - 2021
       description:
-        - Work with clinical researchers, biostatisiticians, and data scientists where we leverage the electronic health record (EHR) data and machine learning models to develop predictive models for patient outcomes.
-
+        - "Collaborated with clinical researchers, biostatisticians, and data scientists to harness electronic health record (EHR) data for machine learning applications."
+        - "Developed and deployed predictive models to forecast patient outcomes, enabling data-driven decision-making in healthcare settings."
+        - "Pioneered the use of advanced feature engineering and model interpretability techniques to improve the transparency and trustworthiness of healthcare AI solutions."
+        - "Led cross-functional efforts to integrate machine learning workflows into clinical practice, optimizing efficiency and enhancing patient care outcomes."
 - title: Open Source Projects
   type: time_table
   contents:
