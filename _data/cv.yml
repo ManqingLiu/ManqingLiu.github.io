@@ -26,7 +26,6 @@
             - "Dr. Andrew Beam"
             - "Dr. James Robins"
 
-
 - title: Courses
   type: time_table
   contents:
@@ -94,11 +93,11 @@
 - title: Fellowship
   type: time_table
   contents:
-        - title: "Technical AI safety Fellowship"
-          institution: "AI Safety Student Team"
-          year: "2024 June - August"
-          description:
-              - "8-week reading group on AI safety, covering topics such as neural network interpretability, robustness, and alignment."
+    - title: "Technical AI safety Fellowship"
+      institution: "AI Safety Student Team"
+      year: "2024 June - August"
+      description:
+        - "8-week reading group on AI safety, covering topics such as neural network interpretability, robustness, and alignment."
 
 - title: Experience
   type: time_table

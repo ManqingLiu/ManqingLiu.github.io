@@ -45,7 +45,7 @@ Pursuing a technical PhD in GenAI is like opening Pandora's box. Initially, my w
 
 While generative AI can be a powerful debugging tool, it's a double-edged sword, especially for beginners. It's dangerously easy to fall into the trap of mental laziness, allowing the AI to do all the thinking. This approach can lead to either getting the right solution or merely suppressing the error message while the underlying problem persists.
 
-I confess I still fall into this trap occasio   nally. However, I'm striving to be more mindful of AI-provided solutions. My new approach is to always attempt solving the bug myself first, understanding the root cause, before considering the AI's suggestion.
+I confess I still fall into this trap occasio nally. However, I'm striving to be more mindful of AI-provided solutions. My new approach is to always attempt solving the bug myself first, understanding the root cause, before considering the AI's suggestion.
 
 In AI research, understanding the 'why' behind a solution is often more crucial than the solution itself. Let's use AI as a tool to augment our problem-solving skills, not replace them.
 
@@ -66,7 +66,6 @@ The process of code review turned into much more than just error-hunting.
 It became an impromptu masterclass in coding standards, best practices, debugging techniques,
 and how to write clean, readable code. David's willingness to help and share knowledge
 reminded me of a fundamental truth in academia: we're all here to learn and grow together.
-
 
 ### Lesson 5: Keep a daily log of your experiments
 
