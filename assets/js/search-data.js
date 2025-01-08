@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-the-bitter-lessons-i-learnt-from-my-first-phd-project",
+            },{id: "post-on-integrating-doubly-robust-estimators-with-mcts-and-it-39-s-connection-with-ppo",
+      
+        title: "On integrating doubly robust estimators with MCTS and it&#39;s connection with PPO",
+      
+      description: "an example of a blog post with some math",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/DR-MCTS/";
+        
+      },
+    },{id: "post-the-bitter-lessons-i-learnt-from-my-first-phd-project",
       
         title: "The bitter lessons I learnt from my first PhD project",
       
