@@ -62,7 +62,7 @@ ninja.data = [{
       
         title: "On integrating doubly robust estimators with MCTS and it&#39;s connection with PPO",
       
-      description: "an example of a blog post with some math",
+      description: "A blog post on integrating doubly robust estimators with MCTS and it&#39;s connection with PPO",
       section: "Posts",
       handler: () => {
         
