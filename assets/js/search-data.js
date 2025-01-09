@@ -58,11 +58,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-on-integrating-doubly-robust-estimators-with-mcts-and-it-39-s-connection-with-ppo",
+            },{id: "post-on-integrating-doubly-robust-estimators-with-mcts",
       
-        title: "On integrating doubly robust estimators with MCTS and it&#39;s connection with PPO",
+        title: "On integrating doubly robust estimators with MCTS",
       
-      description: "A blog post on integrating doubly robust estimators with MCTS and it&#39;s connection with PPO",
+      description: "A blog post on integrating doubly robust estimators with MCTS",
       section: "Posts",
       handler: () => {
         
