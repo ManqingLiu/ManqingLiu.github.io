@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Manqing Liu (Pronounced as Man-ching Leo)
+      value: Manqing Liu (Pronounced as Man-ching Leo) (刘漫清）
     #- name: Date of Birth
     #  value: 27th, July, 1992
     - name: Email
@@ -65,6 +65,12 @@
       linkitems:
         - link: "https://math.mit.edu/classes/18.065/2019SP/"
           linkname: "Course Link"
+    - title: "Introduction to Functional Analysis"
+      institution: "MIT"
+      year: ""
+      linkitems:
+            - link: "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/"
+              linkname: "Course Link"
     - title: "Probability (Graduate level)"
       institution: "Harvard University"
       year: ""
