@@ -58,11 +58,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-on-representation",
+            },{id: "post-on-representation-from-philosophy-to-mathematics-to-machine-learning",
       
-        title: "On Representation",
+        title: "On Representation - From Philosophy to Mathematics to Machine Learning",
       
-      description: "",
+      description: "A blog post on representation",
       section: "Posts",
       handler: () => {
         
