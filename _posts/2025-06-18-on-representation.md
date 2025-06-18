@@ -23,7 +23,7 @@ The concept of representation has deep philosophical roots. For **Plato**, repre
 
 Perhaps not coincidentally, **representation** also appears in functional analysis, providing mathematical precision to these philosophical intuitions. The **Riesz Representation Theorem** serves as a perfect bridge between abstract philosophical concepts and concrete mathematical structures.
 
-**Riesz Representation Theorem**: For any continuous linear functional φ on a Hilbert space H, there exists a unique element f ∈ H such that:
+**Riesz Representation Theorem**: For any continuous linear functional $$ \phi $$ on a Hilbert space $$ H $$, there exists a unique element $$ f \in H $$ such that:
 
 $$\phi(g) = \langle f, g \rangle \text{ for all } g \in H$$
 
@@ -33,7 +33,7 @@ $$R: H^* \to H$$ \\
 $$\phi \mapsto f \text{ where } \phi(\cdot) = \langle f, \cdot \rangle$$
 
 
-The theorem embodies a profound philosophical principle: **every way of measuring relationships (φ) has a unique concrete representation (f)**. This mirrors Plato's theory of Forms - abstract concepts like "justice" or "beauty" (the functionals φ) must have concrete manifestations (the representatives f) that preserve their essential relationships.
+The theorem embodies a profound philosophical principle: **every way of measuring relationships ($$ \phi $$) has a unique concrete representation (f)**. This mirrors Plato's theory of Forms - abstract concepts like "justice" or "beauty" (the functionals $$ \phi $$) must have concrete manifestations (the representatives $$ f $$) that preserve their essential relationships.
 
 What makes this connection profound is that the Riesz theorem guarantees **uniqueness** - there's only one vector that can represent each functional. This suggests a mathematical foundation for the idea that abstract relationships have canonical concrete representations.
 
@@ -66,7 +66,7 @@ $$A_1: H_1 \to H_{\text{universal}}$$ \\
 
 $$A_2: H_2 \to H_{\text{universal}}$$
 
-where $H_{\text{universal}}$ contains the "true" Riesz representatives that both models are approximating.
+where $$ H_{\text{universal}} $$ contains the "true" Riesz representatives that both models are approximating.
 
 What emerges is a remarkable convergence across domains:
 
