@@ -1,4 +1,16 @@
-# On Representation: From Philosophy to Mathematics to Machine Learning
+---
+layout: post
+title: On Representation - From Philosophy to Mathematics to Machine Learning
+date: 2025-06-18
+description: A blog post on representation
+tags: philosophy maths AI comments
+categories: blogs
+giscus_comments: true
+related_posts: false
+toc:
+  beginning: true
+citation: true
+---
 
 ## The Mystery of "Representation"
 
