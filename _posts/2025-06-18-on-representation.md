@@ -62,9 +62,6 @@ Here, each embedded text acts as a "representation" of a linear functional that 
 
 $$
 F: H_1 \to H_2
-$$ 
-
-$$
 \text{where } F(e_1) \approx e_2 \text{ such that } \langle F(e_1), F(e_1') \rangle_{H_2} \approx \langle e_1, e_1' \rangle_{H_1}
 $$
 
