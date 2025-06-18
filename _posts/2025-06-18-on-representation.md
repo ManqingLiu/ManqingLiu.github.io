@@ -8,7 +8,7 @@ categories: blogs
 giscus_comments: true
 related_posts: false
 toc:
-  beginning: true
+  beginning: false
 citation: true
 ---
 
@@ -94,7 +94,7 @@ The recent work on universal embedding geometries suggests we may be witnessing 
 
 Perhaps we are indeed living through a form of computational Platonism, where different AI systems are all glimpsing shadows of the same underlying forms - the canonical representations of meaning itself.
 
-## References
+### References
 
 - Huh, M., Cheung, B., Wang, T., & Isola, P. (2024). The Platonic Representation Hypothesis. *arXiv preprint arXiv:2405.07987*.
 - Jha, R., Zhang, C., Shmatikov, V., & Morris, J. X. (2025). Harnessing the Universal Geometry of Embeddings. *arXiv preprint arXiv:2505.12540*.
