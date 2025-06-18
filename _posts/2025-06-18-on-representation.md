@@ -12,17 +12,14 @@ toc:
 citation: true
 ---
 
-### The Mystery of "Representation"
 
 What does **representation** mean? I encountered this word frequently in machine learning papers, where it sounds abstract and researchers assume you know what it is without explanation. The term appears across vastly different domains - philosophy, mathematics, and AI - yet seems to carry a deeper, unified meaning that connects these fields in surprising ways.
 
-### Philosophical Foundations: From Plato to Schopenhauer
 
 The concept of representation has deep philosophical roots. For **Plato**, representation (mimesis) refers to artistic imitations that are "copies of copies" - three degrees removed from truth since they imitate physical objects which themselves are merely imperfect copies of the eternal Forms (*Republic* Book X, 596a-598d). This establishes a hierarchy: the perfect Forms, their imperfect physical manifestations, and finally our representations of those manifestations.
 
 **Schopenhauer** offers a different perspective. According to him, **representation** (German: *Vorstellung*) refers to the world as it appears to us through our cognitive faculties - essentially, the phenomenal world of experience as opposed to reality as it truly is. Where Plato sees representations as degraded copies, Schopenhauer sees them as the fundamental structure of how we can know anything at all.
 
-### Mathematical Precision: The Riesz Representation Theorem
 
 Perhaps not coincidentally, **representation** also appears in functional analysis, providing mathematical precision to these philosophical intuitions. The **Riesz Representation Theorem** serves as a perfect bridge between abstract philosophical concepts and concrete mathematical structures.
 
@@ -40,8 +37,6 @@ The theorem embodies a profound philosophical principle: **every way of measurin
 
 What makes this connection profound is that the Riesz theorem guarantees **uniqueness** - there's only one vector that can represent each functional. This suggests a mathematical foundation for the idea that abstract relationships have canonical concrete representations.
 
-### Computational Platonism: AI and Universal Representations
-
 Two recent papers in AI reveal how these philosophical and mathematical ideas manifest in machine learning, suggesting we may be witnessing a form of computational Platonism.
 
 
@@ -53,9 +48,6 @@ Building on this foundation, "Harnessing the Universal Geometry of Embeddings" b
 Consider this striking example: imagine you've stolen a corporate vector database containing thousands of embedded emails, but you have no idea what the emails actually say or even how the embedding model works. The vec2vec method can take these mystery vectors and translate them into the space of a publicly available model like BERT, allowing you to extract sensitive information about the original emails - company names, financial discussions, even partial email content - without ever seeing the actual text or having any training examples that connect the two models.
 
 Their method achieves cosine similarities as high as 0.92 between translated and ground-truth embeddings, successfully extracting information from as many as 80% of documents in their experiments. This isn't just a theoretical breakthrough; it's a practical demonstration that the geometric structure of meaning itself may be more universal than we ever imagined.
-
-#### The Mathematical Bridge to Machine Learning
-
 
 In modern embedding spaces, the Riesz theorem manifests beautifully. Consider how semantic similarity is computed:
 
@@ -74,8 +66,6 @@ $$A_2: H_2 \to H_{\text{universal}}$$
 
 where $H_{\text{universal}}$ contains the "true" Riesz representatives that both models are approximating.
 
-### The Deep Convergence
-
 What emerges is a remarkable convergence across domains:
 
 - **Philosophically**: Both Plato and Schopenhauer suggest that our access to reality is mediated through representations that may reveal deeper truths about the structure of existence itself.
@@ -86,7 +76,6 @@ What emerges is a remarkable convergence across domains:
 
 This suggests that when different AI systems converge on similar representations, they're not just finding arbitrary solutions, but discovering the unique mathematical objects that faithfully encode semantic relationships. The universal geometry isn't just an empirical observation - it's a mathematical necessity, rooted in the fundamental structure of how abstract relationships must be concretely represented in any complete space.
 
-### Representation as the Bridge Between Mind and Reality
 
 The concept of representation serves as a bridge between the abstract and concrete, the universal and particular, the mathematical and empirical. From Plato's Forms to Schopenhauer's phenomenology, from the Riesz theorem to modern neural networks, we see the same fundamental question: How do abstract relationships manifest in concrete, computable forms?
 
