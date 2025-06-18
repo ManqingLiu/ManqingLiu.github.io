@@ -38,7 +38,7 @@ $$
 $$
 
 
-The theorem embodies a profound philosophical principle: **every way of measuring relationships ($$ \phi $$) has a unique concrete representation ($f$)**. This mirrors Plato's theory of Forms - abstract concepts like "justice" or "beauty" (the functionals $$ \phi $$) must have concrete manifestations (the representatives $$ f $$) that preserve their essential relationships.
+The theorem embodies a profound philosophical principle: **every way of measuring relationships ($$ \phi $$) has a unique concrete representation ($$ f $$)**. This mirrors Plato's theory of Forms - abstract concepts like "justice" or "beauty" (the functionals $$ \phi $$) must have concrete manifestations (the representatives $$ f $$) that preserve their essential relationships.
 
 What makes this connection profound is that the Riesz theorem guarantees **uniqueness** - there's only one vector that can represent each functional. This suggests a mathematical foundation for the idea that abstract relationships have canonical concrete representations.
 
