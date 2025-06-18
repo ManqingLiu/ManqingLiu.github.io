@@ -29,8 +29,7 @@ $$\phi(g) = \langle f, g \rangle \text{ for all } g \in H$$
 
 This establishes an isometric isomorphism between the space H and its dual H*:
 
-$$R: H^* \to H$$
-
+$$R: H^* \to H$$ \\
 $$\phi \mapsto f \text{ where } \phi(\cdot) = \langle f, \cdot \rangle$$
 
 
@@ -56,14 +55,14 @@ $$\text{similarity}(\text{text}_1, \text{text}_2) = \langle \text{embed}(\text{t
 
 Here, each embedded text acts as a "representation" of a linear functional that measures semantic affinity. The vec2vec translation can be viewed as finding representations across different Hilbert spaces:
 
-$$F: H_1 \to H_2$$
+$$F: H_1 \to H_2$$ \\
 
 $$\text{where } F(e_1) \approx e_2 \text{ such that } \langle F(e_1), F(e_1') \rangle_{H_2} \approx \langle e_1, e_1' \rangle_{H_1}$$
 
 
 The "universal latent space" in vec2vec can be understood as the canonical Hilbert space where Riesz representatives take their most natural form. The method learns input adapters that transform embeddings from each encoder-specific space into a universal latent representation:
 
-$$A_1: H_1 \to H_{\text{universal}}$$
+$$A_1: H_1 \to H_{\text{universal}}$$ \\
 
 $$A_2: H_2 \to H_{\text{universal}}$$
 
