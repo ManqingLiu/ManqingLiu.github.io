@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-on-integrating-doubly-robust-estimators-with-mcts",
+            },{id: "post-on-representation",
+      
+        title: "On Representation",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/on-representation/";
+        
+      },
+    },{id: "post-on-integrating-doubly-robust-estimators-with-mcts",
       
         title: "On integrating doubly robust estimators with MCTS",
       
