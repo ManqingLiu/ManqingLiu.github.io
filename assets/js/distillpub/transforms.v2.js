@@ -4383,7 +4383,7 @@
                   fontName: "SansSerif-Regular",
                 },
                 mathtt: {
-                  variant: "monospace",
+                  variant: "Garamond",
                   fontName: "Typewriter-Regular",
                 },
               };
