@@ -1,9 +1,11 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+/*******************************************************************************
+ * Typography
+ ******************************************************************************/
 
-// Typography
-
+/* Base styles for all text elements */
 p,
 h1,
 h2,
@@ -17,7 +19,42 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Baskerville Old Face", serif;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400; /* Default weight */
+  font-style: normal; /* Default style */
+}
+
+/* Bold text styling */
+strong,
+b,
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/* Headings should be bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* Italic text styling */
+em,
+i,
+.font-italic {
+  font-style: italic !important;
+  font-weight: 400; /* Keep regular weight for italics */
+}
+
+/* Bold + Italic combination */
+strong em,
+em strong,
+b em,
+em b,
+b i,
+i b,
+strong i,
+i strong {
+  font-weight: 700 !important;
+  font-style: italic !important;
 }
 
 
