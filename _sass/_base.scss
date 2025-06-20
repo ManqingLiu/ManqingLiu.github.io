@@ -17,13 +17,9 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family:"Charis SIL", serif;
+  font-family: "Baskerville Old Face", serif;
 }
 
-strong, b, .font-weight-bold {
-  font-weight: 700 !important;
-  font-family: 'Charis SIL', serif;
-}
 
 hr {
   border-top: 1px solid var(--global-divider-color);
