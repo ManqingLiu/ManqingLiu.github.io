@@ -17,7 +17,12 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family:"Crimson Text", serif;
+  font-family:"Charis SIL", serif;
+}
+
+strong, b, .font-weight-bold {
+  font-weight: 700 !important;
+  font-family: 'Charis SIL', serif;
 }
 
 hr {
@@ -199,7 +204,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: "Crimson Text";
+    font-family: "Charis SIL";
 
     p {
       display: inline-block;
