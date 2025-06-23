@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-on-representation",
+            },{id: "post-my-summer-internship-reflection",
+      
+        title: "My Summer Internship Reflection",
+      
+      description: "A blog post on my reflections on career choices",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/summer-internship/";
+        
+      },
+    },{id: "post-on-representation",
       
         title: "On Representation",
       
