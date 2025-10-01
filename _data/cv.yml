@@ -147,6 +147,9 @@
     - title: <a href="https://github.com/ManqingLiu/DAGawareTransformer">DAG-aware-transformer</a>
       year: 2024-now
       description: Our codes for the paper "DAG-aware Transformer for Causal Inference" published in NeurIPS 2024, CRL workshop.
+    - title: <a href="https://github.com/MeridianResearch/cot_health_metrics">COT Health Metrics</a>
+      year: 2025-now
+      description: A library for evaluating reasoning pathologies in large language models (LLMs), including post-hoc, internalized, and encoded reasoning flaws. Provides health metrics such as reliance, paraphrasability, and substitutability to assess and analyze these pathologies.
 
       #- title: Honors and Awards
       #  type: time_table

@@ -5,4 +5,4 @@ repo_description_lines_max: 2
 
 github_repos:
   - ManqingLiu/DAGawareTransformer
-  - https://github.com/MeridianResearch/cot_health_metrics/tree/main
+  - MeridianResearch/cot_health_metrics
