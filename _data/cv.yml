@@ -99,6 +99,15 @@
 - title: Fellowship
   type: time_table
   contents:
+    - title: "MARS Fellowship"
+      institution: "Cambridge AI Safety Hub"
+      year: "2025 July - 2025 September"
+      description:
+        - "Completed competitive 3-month research fellowship focused on AI safety and alignment.
+         Conducted independent research on detecting pathological reasoning behaviors in large
+         language models under mentorship from University of Cambridge with collaborators from
+         UCL and Mila. Developed novel evaluation methodologies for Chain-of-Thought pathologies
+         with implications for AI system reliability and trustworthiness."
     - title: "Technical AI safety Fellowship"
       institution: "AI Safety Student Team"
       year: "2024 June - August"
@@ -118,6 +127,13 @@
         - title: "Aim 2"
           contents:
             - "Integrated doubly robust estimators into Monte Carlo Tree Search (MCTS), enabling large language models to perform complex, multi-step reasoning and planning with higher accuracy in real-world scenarios."
+        - title: "Aim 3"
+          contents:
+            - "Developed and implemented comprehensive evaluation metrics to identify
+             and monitor pathologies in Chain-of-Thought (CoT) reasoning across large language
+             models, including post-hoc, internalized, and encoded reasoning patterns. Collaborated
+             on fine-tuning open-weight LLM models to elicit internalized and encoded
+             reasoning capabilities in model organisms."
     - title: Biostatistician
       institution: Penn Medicine, Philadelphia, PA, US
       year: 2017 - 2021
