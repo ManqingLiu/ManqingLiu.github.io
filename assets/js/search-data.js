@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-my-summer-internship-reflection",
+            },{id: "post-what-can-wittgenstein-teach-us-about-llm-safety-research",
+      
+        title: "What Can Wittgenstein Teach Us About LLM Safety Research?",
+      
+      description: "Drawing parallels between Wittgenstein&#39;s philosophy of language and pathological reasoning in LLMs",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Wittgenstein/";
+        
+      },
+    },{id: "post-my-summer-internship-reflection",
       
         title: "My Summer Internship Reflection",
       
