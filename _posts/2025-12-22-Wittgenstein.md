@@ -17,11 +17,11 @@ The biggest event in 2025 for me is entering the field of AI safety research. In
 
 Wittgenstein proposed an experiment:
 
-> "Say 'It's cold here', and mean 'It's warm here.' Can you do it?"
+*"Say 'It's cold here', and mean 'It's warm here.' Can you do it?"*
 
 What separates the act of saying from the act of meaning? He went on:
 
-> "One wants to say: a sentence that makes sense is one which one can not merely say, but also think."
+*"One wants to say: a sentence that makes sense is one which one can not merely say, but also think."*
 
 You can say nonsense like "colorless green ideas sleep furiously," but you cannot really think through nonsense.
 
@@ -31,7 +31,7 @@ We say that a model is doing **post-hoc reasoning** if the model produces the co
 
 Inner speech and inner processes, Wittgenstein argued, are real and inevitable.
 
-> "If people talked only inwardly...they would merely be doing always what, as it is, they do sometimes."
+*"If people talked only inwardly...they would merely be doing always what, as it is, they do sometimes."*
 
 Both humans and LLMs develop "inner" computational processes that don't fully surface in explicit language. We don't verbalize every step of our thinking, as much reasoning happens beneath full linguistic articulation. Similarly, LLMs process information through hidden layers, and not everything that happens computationally will (or should) appear in CoT.
 
@@ -40,7 +40,7 @@ So it is not necessarily true that when an LLM reasons internally rather than ex
 1. Is the internalized reasoning **aligned** with the external CoT, in the sense that the internal computation supports/extends what's in the CoT, or contradicts/bypasses it entirely?
 2. Can the model **articulate** its reasoning when needed, like a human who can explain how they play chess even though they understand chess as an inner process?
 
-### Encoded Reasoning and Private Languages
+**Encoded Reasoning and Private Languages**
 
 Someone could say "a b c d" and mean "The weather is fine." What makes this meaningful isn't some special inner experience. It's that they've learned to use "a b c d" in that way, just like someone who learned to use English words. Wittgenstein argues that meaning doesn't require a special mental act; it's constituted by use and training. For language to work (even for LLMs), one needs:
 
@@ -58,7 +58,7 @@ OpenAI recently published research on training LLMs to "confess" their misbehavi
 
 The results are genuinely promising. Models trained this way surface misbehavior that would otherwise stay hidden. But Wittgenstein would urge caution about what we're learning from these confessions.
 
-> "The criteria for the truth of the confession that I thought such-and-such are not the criteria for a true description of a process."
+*"The criteria for the truth of the confession that I thought such-and-such are not the criteria for a true description of a process."*
 
 For humans, confessions matter not because they accurately report mental processes, but because they express genuine **truthfulness**, creating trust and allowing us to draw reliable consequences.
 
