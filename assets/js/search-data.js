@@ -37,14 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-job-diary",
-          title: "job diary",
-          description: "A diary tracking my job search.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/job-diary/";
-          },
-        },{id: "dropdown-publications",
+        },{id: "dropdown-job-diary",
+              title: "job diary",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-publications",
               title: "publications",
               description: "",
               section: "Dropdown",
