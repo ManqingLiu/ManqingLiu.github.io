@@ -2,8 +2,7 @@
 layout: page
 permalink: /job-diary/
 title: job diary
-nav: true
-nav_order: 5
+nav: false
 description: A diary tracking my job search.
 toc:
   sidebar: left
