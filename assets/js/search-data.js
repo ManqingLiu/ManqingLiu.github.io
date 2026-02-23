@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-job-diary",
           title: "job diary",
-          description: "A public diary tracking my job search after graduating in May 2026.",
+          description: "A diary tracking my job search.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/job-diary/";
@@ -65,18 +65,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-job-search-diary-getting-started",
-      
-        title: "Job Search Diary: Getting Started",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2026/job-search-getting-started/";
-        
-      },
-    },{id: "post-what-can-wittgenstein-teach-us-about-llm-safety-research",
+            },{id: "post-what-can-wittgenstein-teach-us-about-llm-safety-research",
       
         title: "What Can Wittgenstein Teach Us About LLM Safety Research?",
       
