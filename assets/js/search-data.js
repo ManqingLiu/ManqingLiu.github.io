@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-what-can-wittgenstein-teach-us-about-llm-safety-research",
+            },{id: "post-how-agents-fail",
+      
+        title: "How agents fail",
+      
+      description: "How tool-using LLM agents fail safety evaluations",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/how-agents-fail/";
+        
+      },
+    },{id: "post-what-can-wittgenstein-teach-us-about-llm-safety-research",
       
         title: "What Can Wittgenstein Teach Us About LLM Safety Research?",
       
